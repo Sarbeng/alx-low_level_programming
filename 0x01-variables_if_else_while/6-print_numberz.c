@@ -10,13 +10,13 @@
  */
 int main(void)
 {
-	int base10_num;
+	int num;
 
-	base10_num = 0;
-	while (base10_num < 10)
+	num = 0;
+	while (num < 10)
 	{
-		putchar(base10_num);
-		base10_num++;
+		putchar((num % 10) + '0');
+		num++;
 	}
 	putchar('\n');
 	return (0);
