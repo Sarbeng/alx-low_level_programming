@@ -1,15 +1,15 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - Entry point
  *
  * printf - cos i can
  *
- * Return: Always  0 (success)
+ * Return: Always  1 (success)
  */
-int main(void)iiiii
+int main(void)
 {
-	char s[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	fprintf(stdout, "%s\n", s);
-	return (0);
+	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	return (1);
 }
