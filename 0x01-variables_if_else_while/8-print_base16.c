@@ -20,7 +20,7 @@ int main(void)
 	 */
 	int num;
 	char alphabet;
-	
+
 	num = 0;
 	alphabet = 'a';
 	/*loop for num*/
