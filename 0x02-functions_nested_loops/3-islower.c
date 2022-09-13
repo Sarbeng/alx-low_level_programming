@@ -2,7 +2,7 @@
 /**
  * _islower - checks whether lowercase
  *
- * int c - int value to check for
+ * @c: int value to check for
  *
  * Return: 0 if false 1 if true
  */
