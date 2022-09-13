@@ -28,4 +28,9 @@ int _islower(int c);
  */
 int _isalpha(int c);
 
+/**
+ * print_sign - prints the sign - or + or 0 of a number
+ */
+int print_sign(int n);
+
 #endif
