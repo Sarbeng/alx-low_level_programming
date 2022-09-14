@@ -54,4 +54,9 @@ void jack_bauer(void);
   */
 void times_table(void);
 
+/**
+ * add - adds 2 nums
+ */
+int add(int, int);
+
 #endif
