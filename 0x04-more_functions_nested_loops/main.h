@@ -57,4 +57,9 @@ void print_diagonal(int n);
  */
 void print_square(int size);
 
+/**
+ * prints a triangle followed by new line
+ */
+void print_triangle(int size);
+
 #endif
