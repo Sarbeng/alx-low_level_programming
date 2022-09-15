@@ -52,4 +52,9 @@ void print_line(int n);
  */
 void print_diagonal(int n);
 
+/**
+ * prints a square follwed by a new line
+ */
+void print_square(int size);
+
 #endif
