@@ -47,4 +47,9 @@ void more_numbers(void);
  */
 void print_line(int n);
 
+/**
+ * print_diagonal - raws a diagonal line on the terminal.
+ */
+void print_diagonal(int n);
+
 #endif
