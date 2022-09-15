@@ -37,4 +37,9 @@ int _putchar(char ch);
  */
 void print_most_numbers(void);
 
+/**
+ * print 0 to 14 , ten times
+ */
+void more_numbers(void);
+
 #endif
