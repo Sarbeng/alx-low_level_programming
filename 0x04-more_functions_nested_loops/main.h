@@ -26,4 +26,9 @@ int mul(int a, int b);
  */
 void print_numbers(void);
 
+/**
+ * _putchar - print character
+ */
+int _putchar(char ch);
+
 #endif
