@@ -10,4 +10,9 @@
  */
 int _isupper(int c);
 
+/**
+ * mul - multiplies two numbers
+ */
+int mul(int a, int b);
+
 #endif
