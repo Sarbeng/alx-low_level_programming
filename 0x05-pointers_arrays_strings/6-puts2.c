@@ -13,7 +13,7 @@ void puts2(char *str)
 	/**
 	 * use while loop to print string
 	 */
-	while ( *(str + i) != '\0')
+	while (*(str + i) != '\0')
 	{
 		/**
 		 * print every other character
