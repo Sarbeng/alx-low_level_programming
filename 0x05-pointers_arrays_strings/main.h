@@ -63,4 +63,10 @@ void print_array(int *a, int n);
  */
 char *_strcpy(char *dest, char *src);
 
+
+/**
+ * prints text to screen
+ */
+int _putchar(char ch);
+
 #endif /* _MAIN_H_ */
