@@ -69,4 +69,9 @@ char *_strcpy(char *dest, char *src);
  */
 int _putchar(char ch);
 
+/**
+ * convert string to int
+ */
+int _atoi(char *s);
+
 #endif /* _MAIN_H_ */
