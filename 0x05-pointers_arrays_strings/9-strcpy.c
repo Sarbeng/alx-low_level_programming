@@ -17,5 +17,7 @@ char *_strcpy(char *dest, char *src)
 	{
 		dest[i] = src[i];
 	}
+	/*this takes the last element of the string*/
+	dest[i] = '\0';
 	return (dest);
 }
