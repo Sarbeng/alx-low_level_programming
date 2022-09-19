@@ -10,13 +10,14 @@
  */
 void puts_half(char *str)
 {
-	int i, len, half;
+	int i, len, half, n;
 
 	/**
 	 * initialize len
 	 */
 	len = strlen(str);
 	half = len / 2;
+	n = (len - 1) / 2;
 
 	/**
 	 * iterate through sring
@@ -27,6 +28,15 @@ void puts_half(char *str)
 		 * if odd
 		 */
 		if (len % 2 == 0)
+		{
+			_putchar(*(str + i));
+		}
+		else
+			break;
+	}
+	if (len % 2 != 0)
+	{
+		for (i = (len - n); *(str + i) != '\0'; i++)
 		{
 			_putchar(*(str + i));
 		}
