@@ -6,12 +6,23 @@
  */
 void print_rev(char *s)
 {
-	int len;
+	int len = 0;
 
-	len = strlen(s);
+	/**
+	 * while end of string not reached
+	 * increase len
+	 */
+	while (s[len])
+	{
+		len++;
+	}
+
+	/**
+	 * while len not = 0
+	 */
 	while (len--)
 	{
-		_putchar(*(s + 1));
+		_putchar(s[len]);
 	}
 	_putchar('\n');
 }
