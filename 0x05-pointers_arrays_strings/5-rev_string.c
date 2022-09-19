@@ -4,7 +4,7 @@
 /**
  * rev_string - reverses a string
  *
- * @s - pointer to string
+ * @s: pointer to string
  */
 void rev_string(char *s)
 {
@@ -19,15 +19,15 @@ void rev_string(char *s)
 	/**
 	 * loop through string
 	 */
-	for (i = 0; i < len/2; i++)
+	for (i = 0; i < len / 2; i++)
 	{
 		/**
 		 * temp variable holds the string
-		 * we then proceed to swap the value of i 
+		 * we then proceed to swap the value of i
 		 * and the last value in the array of string
 		 */
 		temp = s[i];
-		s[i] = s[len -i -1];
-		s[len -i - 1] = temp;
+		s[i] = s[len - i - 1];
+		s[len - i - 1] = temp;
 	}
 }
