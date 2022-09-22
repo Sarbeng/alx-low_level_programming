@@ -12,7 +12,7 @@ char *cap_string(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		if ((s[i +1] >= 'a') && (s[i + 1] <= 'z'))
+		if ((s[i + 1] >= 'a') && (s[i + 1] <= 'z'))
 		{
 			if (s[i] == ' ' ||
 				s[i] == '\t' ||
@@ -20,7 +20,7 @@ char *cap_string(char *s)
 				s[i] == ',' ||
 				s[i] == '.')
 			{
-				s[i + 1] = s[i +1] - 32;
+				s[i + 1] = s[i + 1] - 32;
 			}
 		}
 	}
