@@ -48,6 +48,8 @@ int _sqrt_recursion(int n);
  */
 int is_prime_number(int n);
 
+int is_prime(int n, int resp);
+
 int sqr(int n, int val);
 
 #endif /* _MAIN_H_ */
